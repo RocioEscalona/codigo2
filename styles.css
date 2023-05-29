@@ -179,7 +179,7 @@ header .categorias a.activo {
   top: -20px;
 }
 
-/* Estilos footer*/
+/* Estilos footer,iconos redes sociales*/
 
 footer .redes-sociales {
   display: flex;
@@ -200,14 +200,18 @@ footer .redes-sociales a {
   transition: 0.3s ease all;
 }
 
-footer .redes-sociales .twitter {
-  background: #1da1f2;
+footer .redes-sociales .whatsapp {
+  background: #25d366;
 }
 footer .redes-sociales .facebook {
   background: #3b5998;
 }
 footer .redes-sociales .instagram {
   background: #c13584;
+}
+
+footer .redes-sociales .email {
+  background: #ba6b97;
 }
 
 footer .redes-sociales a i {
@@ -232,8 +236,10 @@ footer .creado-por {
   margin-bottom: 40px;
   text-align: center;
   font-size: 14px;
-  color: #c13584;
+  color: #371c2c;
   padding: 30px;
+  text-shadow: 4px 4px 4px #c13584;
+  font-weight: bold;
 }
 
 /* responsive*/
