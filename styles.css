@@ -236,7 +236,7 @@ footer .creado-por {
   margin-bottom: 40px;
   text-align: center;
   font-size: 14px;
-  color: #371c2c;
+  color: #6f1649;
   padding: 30px;
   text-shadow: 4px 4px 4px #c13584;
   font-weight: bold;
@@ -244,5 +244,12 @@ footer .creado-por {
 
 /* responsive*/
 
-@media and {
+@media screen and (max-width: 760px) {
+  .grid .item {
+    width: calc(50% - 20px);
+  }
+
+  header .barra-busqueda {
+    width: 100%;
+  }
 }
